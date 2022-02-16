@@ -14,6 +14,7 @@ npx cap sync
 <docgen-index>
 
 * [`echo(...)`](#echo)
+* [`getContacts()`](#getcontacts)
 
 </docgen-index>
 
@@ -31,6 +32,17 @@ echo(options: { value: string; }) => Promise<{ value: string; }>
 | **`options`** | <code>{ value: string; }</code> |
 
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+
+--------------------
+
+
+### getContacts()
+
+```typescript
+getContacts() => Promise<{ result: { displayName: string; phoneNumber: string; }[]; }>
+```
+
+**Returns:** <code>Promise&lt;{ result: { displayName: string; phoneNumber: string; }[]; }&gt;</code>
 
 --------------------
 

@@ -1,10 +1,10 @@
 import { registerPlugin } from '@capacitor/core';
 
-import type { simpleContactPlugin } from './definitions';
+import type { SimpleContactPlugin } from './definitions';
 
-const simpleContact = registerPlugin<simpleContactPlugin>('simpleContact', {
-  web: () => import('./web').then(m => new m.simpleContactWeb()),
+const SimpleContact = registerPlugin<SimpleContactPlugin>('SimpleContact', {
+  web: () => import('./web').then(m => new m.SimpleContactWeb()),
 });
 
 export * from './definitions';
-export { simpleContact };
+export { SimpleContact };

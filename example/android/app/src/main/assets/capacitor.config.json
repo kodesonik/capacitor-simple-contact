@@ -1,0 +1,6 @@
+{
+	"appId": "io.contact.example",
+	"appName": "Contact Example",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
