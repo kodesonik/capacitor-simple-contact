@@ -1,7 +1,7 @@
 {
-  "name": "capaictor-simple-contact",
+  "name": "capacitor-simple-contact",
   "version": "0.0.1",
-  "description": "Capacitor plugins to easily phones contacts",
+  "description": "Capacitor plugins to load easily phone contacts",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
